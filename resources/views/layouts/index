@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Home</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <main>
+       
+     <div class="main">
+
+        <div class='container'>
+            <div>
+              <!-- Navigation Area -->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top " id="nav">   
+                <a class="navbar-brand" href="index.html">Blog Name</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Account
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Register</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Login</a>
+                    </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 ml-5 my-lg-0">
+                    <input class="search mr-sm-2" type="search" placeholder="Search users..." aria-label="Search">
+                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                </form>
+                </div>
+            </nav>
+</div>
+            </div>
+            <!-- Carousel Area -->
+            <div class="slider">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="./images/slider.jpg" class="d-block w-100" alt="Image Slider one">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./images/slider2.jpg" class="d-block w-100" alt="Image Slider Two">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./images/slider3.jpg" class="d-block w-100" alt="Image Slider Three">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+            </div>
+
+            <!-- Jumbotron Area -->
+            <div class="container my-5">
+                <div class="jumbotron text-center my-5">
+                <h1 class="display-4">Welcome to Our Blog!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Get Started!</a>
+                </div>
+            </div>
+            <!----side bar----->
+            <div>
+
+            </div>
+            <!-- Card Area -->
+            <div class="container cardHolder my-5">
+                <div class="row my-5">
+                <div class="col-md-4 my-3">
+                    <div class="card" style="width: 18rem;">
+                    <img src="./images/share.jpg" class="card-img-top" alt="Share Your thoughts">
+                    <div class="card-body">
+                        <h5 class="card-title">Share Your thoughts</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Create Post</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card" style="width: 18rem;">
+                    <img src="./images/comments.jpg" class="card-img-top" alt="Comment on Posts">
+                    <div class="card-body">
+                        <h5 class="card-title">Comment on Posts</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Comment now</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card" style="width: 18rem;">
+                    <img src="./images/connections.jpg" class="card-img-top" alt="Create Connections">
+                    <div class="card-body">
+                        <h5 class="card-title">Create Connections</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-success">Meet Someone</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+                </div>
+
+     </div>
+
+     <!-- <div class="try">
+        <div class="bodymain">
+            <h1>welcome Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, est! Accusantium in nulla repellendus dicta consequatur nisi quo odit rem sunt earum officia reprehenderit, corporis assumenda non ducimus est illo modi asperiores consequuntur dolorem doloremque voluptatem voluptate facilis aliquid?</h1>
+        </div>
+
+        <div class="sidebar">
+            <h2>sidebar</h2>
+        </div>
+       
+     </div> -->
+      <!-- Footer Area -->
+      <footer class="mt-5 p-5">
+        <p class="text-center">&copy; Copyright 2021 | Blog name</p>
+      </footer>
+      
+    </main>
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
